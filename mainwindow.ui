@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>30</y>
+      <width>360</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>30</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交修改</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>80</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>撤销修改</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>130</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加记录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>180</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>删除选中行</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>530</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>姓名：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>530</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>530</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查  询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>530</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>重置</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>升序排列</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>降序排列</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_xinjiang">
+    <property name="geometry">
+     <rect>
+      <x>44</x>
+      <y>180</y>
+      <width>91</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>新疆</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_qinghai">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>280</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>青海</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_xizang">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>310</y>
+      <width>91</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>西藏</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_xinjiang">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>270</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_gansu">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>甘肃</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_sichuan">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>340</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>四川</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_yunnan">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>410</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>云南</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_neimenggu">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>230</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>内蒙古</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_heilongjiang">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>160</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>黑龙江</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_jilin">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>220</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>吉林</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_liaoning">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>260</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>辽宁</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ningxia">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>280</y>
+      <width>51</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>宁夏</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_shanxi">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>280</y>
+      <width>41</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>陕西</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_shanxiyi">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>280</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>山西</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_chongqing">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>370</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>重庆</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_guizhou">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>400</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>贵州</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_guangxi">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>430</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>广西</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_henan">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>330</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>河南</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_hubei">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>370</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>湖北</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_hunan">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>390</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>湖南</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_guangdong">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>430</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>广东</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_hainan">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>490</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>海南</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_hebei">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>280</y>
+      <width>75</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>河北</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_shandong">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>330</y>
+      <width>75</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>山东</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_jiangxi">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>390</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>江西</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_fujian">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>430</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>福建</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_taiwan">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>400</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>台湾</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_zhejiang">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>380</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>浙江</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_anhui">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>350</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>安徽</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_jiangsu">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>360</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>江苏</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_shanghai">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>360</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>上海</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_beijing">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>280</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>北京</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_tianjin">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>300</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>天津</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_xianggang">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>460</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>香港</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_aomen">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>460</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>澳门</string>
+    </property>
+   </widget>
+   <zorder>tableView</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>label</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>pushButton_xinjiang</zorder>
+   <zorder>pushButton_xizang</zorder>
+   <zorder>pushButton_qinghai</zorder>
+   <zorder>label_xinjiang</zorder>
+   <zorder>pushButton_gansu</zorder>
+   <zorder>pushButton_sichuan</zorder>
+   <zorder>pushButton_yunnan</zorder>
+   <zorder>pushButton_neimenggu</zorder>
+   <zorder>pushButton_heilongjiang</zorder>
+   <zorder>pushButton_jilin</zorder>
+   <zorder>pushButton_liaoning</zorder>
+   <zorder>pushButton_ningxia</zorder>
+   <zorder>pushButton_shanxi</zorder>
+   <zorder>pushButton_shanxiyi</zorder>
+   <zorder>pushButton_chongqing</zorder>
+   <zorder>pushButton_guizhou</zorder>
+   <zorder>pushButton_guangxi</zorder>
+   <zorder>pushButton_henan</zorder>
+   <zorder>pushButton_hubei</zorder>
+   <zorder>pushButton_hunan</zorder>
+   <zorder>pushButton_guangdong</zorder>
+   <zorder>pushButton_hainan</zorder>
+   <zorder>pushButton_hebei</zorder>
+   <zorder>pushButton_shandong</zorder>
+   <zorder>pushButton_jiangxi</zorder>
+   <zorder>pushButton_fujian</zorder>
+   <zorder>pushButton_taiwan</zorder>
+   <zorder>pushButton_zhejiang</zorder>
+   <zorder>pushButton_anhui</zorder>
+   <zorder>pushButton_jiangsu</zorder>
+   <zorder>pushButton_shanghai</zorder>
+   <zorder>pushButton_beijing</zorder>
+   <zorder>pushButton_tianjin</zorder>
+   <zorder>pushButton_xianggang</zorder>
+   <zorder>pushButton_aomen</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
